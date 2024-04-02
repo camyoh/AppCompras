@@ -1,4 +1,7 @@
 # Meli App
+
+<img src="https://github.com/camyoh/PruebaMeli/blob/main/Videos/video1.gif" width="250"> <img src="https://github.com/camyoh/PruebaMeli/blob/main/Videos/video2.gif" width="250"> <img src="https://github.com/camyoh/PruebaMeli/blob/main/Videos/video3.gif" width="250"> <img src="https://github.com/camyoh/PruebaMeli/blob/main/Videos/RPReplay_Final1712090351.gif" width="250">
+
 Este proyecto está diseñado para realizar búsquedas y mostrar detalles de productos utilizando la API de Mercado Libre. Está estructurado siguiendo los principios de la arquitectura limpia y los principios SOLID, lo que facilita la modularidad, la escalabilidad y el mantenimiento del código.
 
 Se utiliza el patrón de coordinador para gestionar el flujo de vistas en la aplicación. El coordinador se encarga de iniciar la navegación entre las diferentes pantallas, lo que permite una separación clara de responsabilidades y un mayor control sobre la navegación.
