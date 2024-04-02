@@ -7,13 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C274D232BB23A37006A73E5 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C274D222BB23A37006A73E5 /* CoordinatorProtocol.swift */; };
+		1C274D252BB23A93006A73E5 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C274D242BB23A93006A73E5 /* Coordinator.swift */; };
+		1C8172152BBB17C000490212 /* SuggestionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8172142BBB17C000490212 /* SuggestionsModel.swift */; };
+		1C81721C2BBB198100490212 /* SuggestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81721B2BBB198100490212 /* SuggestionsViewController.swift */; };
+		1C86F0182BB4451A004F9FA4 /* SuggestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86F0172BB4451A004F9FA4 /* SuggestionsViewModel.swift */; };
+		1C86F01F2BB4458D004F9FA4 /* FetchSuggestionsUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86F01E2BB4458D004F9FA4 /* FetchSuggestionsUseCaseProtocol.swift */; };
+		1C86F0212BB44669004F9FA4 /* FetchSuggestionsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86F0202BB44669004F9FA4 /* FetchSuggestionsUseCase.swift */; };
+		1C86F0232BB44FF1004F9FA4 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86F0222BB44FF1004F9FA4 /* ItemModel.swift */; };
+		1C86F0252BB44FF8004F9FA4 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86F0242BB44FF8004F9FA4 /* ListViewModel.swift */; };
+		1C86F0272BB4501F004F9FA4 /* FetchResultsUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86F0262BB4501F004F9FA4 /* FetchResultsUseCaseProtocol.swift */; };
+		1C86F0292BB45025004F9FA4 /* FetchResultsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86F0282BB45025004F9FA4 /* FetchResultsUseCase.swift */; };
+		1C86F0312BB5EA0A004F9FA4 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 1C86F0302BB5EA0A004F9FA4 /* SDWebImage */; };
+		1C86F0332BB71661004F9FA4 /* ListCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86F0322BB71661004F9FA4 /* ListCellTableViewCell.swift */; };
+		1C86F0352BB8E859004F9FA4 /* ItemEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86F0342BB8E859004F9FA4 /* ItemEntity.swift */; };
+		1C86F0372BB8EC57004F9FA4 /* FetchItemUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86F0362BB8EC57004F9FA4 /* FetchItemUseCaseProtocol.swift */; };
+		1C86F0392BB8ECA5004F9FA4 /* FetchItemUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86F0382BB8ECA5004F9FA4 /* FetchItemUseCase.swift */; };
+		1C86F03B2BB8ED19004F9FA4 /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86F03A2BB8ED19004F9FA4 /* DetailModel.swift */; };
+		1C86F03D2BB8F369004F9FA4 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86F03C2BB8F369004F9FA4 /* DetailViewModel.swift */; };
+		1C86F0462BBA37D3004F9FA4 /* ServicesManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86F0452BBA37D3004F9FA4 /* ServicesManagerProtocol.swift */; };
+		1C86F0482BBA6747004F9FA4 /* MeliEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86F0472BBA6747004F9FA4 /* MeliEndpoint.swift */; };
+		1C86F04A2BBAF132004F9FA4 /* ItemCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86F0492BBAF132004F9FA4 /* ItemCellModel.swift */; };
+		1CB1EB7A2BB3314C000A6850 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1EB792BB3314C000A6850 /* Repository.swift */; };
+		1CB1EB7C2BB33152000A6850 /* RepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1EB7B2BB33152000A6850 /* RepositoryProtocol.swift */; };
+		1CB1EB7E2BB33187000A6850 /* DataDecoderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1EB7D2BB33187000A6850 /* DataDecoderProtocol.swift */; };
+		1CB1EB802BB331A4000A6850 /* UrlSessionAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1EB7F2BB331A4000A6850 /* UrlSessionAPIClient.swift */; };
+		1CB1EB832BB33275000A6850 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1EB822BB33275000A6850 /* AppConstants.swift */; };
+		1CB1EB862BB33CA4000A6850 /* SuggestionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1EB852BB33CA4000A6850 /* SuggestionEntity.swift */; };
+		1CB1EB882BB3BEF3000A6850 /* ResultsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1EB872BB3BEF3000A6850 /* ResultsEntity.swift */; };
+		1CB1EB8A2BB3BF79000A6850 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1EB892BB3BF79000A6850 /* ListViewController.swift */; };
+		1CB1EB8C2BB3C501000A6850 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1EB8B2BB3C501000A6850 /* DetailViewController.swift */; };
+		1CB35CFB2BBB28FA005F5822 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB35CFA2BBB28FA005F5822 /* ApiError.swift */; };
+		1CEAA7092BBB698800C976CA /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAA7082BBB698800C976CA /* Utils.swift */; };
+		1CEAA70B2BBB6B6600C976CA /* ApiClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAA70A2BBB6B6600C976CA /* ApiClientMock.swift */; };
+		1CEAA70D2BBB92F100C976CA /* DataDecoderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAA70C2BBB92F100C976CA /* DataDecoderMock.swift */; };
+		1CEAA7112BBB964A00C976CA /* RepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAA7102BBB964A00C976CA /* RepositoryMock.swift */; };
+		1CEAA7142BBB9B9E00C976CA /* ServicesManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAA7132BBB9B9E00C976CA /* ServicesManagerMock.swift */; };
+		1CEAA7162BBB9C0500C976CA /* ErrorAlertFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAA7152BBB9C0500C976CA /* ErrorAlertFactoryTests.swift */; };
+		1CEAA7182BBB9D4600C976CA /* MeliEndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAA7172BBB9D4600C976CA /* MeliEndpointTests.swift */; };
+		1CEAA71C2BBBA68300C976CA /* RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAA71B2BBBA68300C976CA /* RepositoryTests.swift */; };
+		1CEAA71E2BBC42AF00C976CA /* CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAA71D2BBC42AF00C976CA /* CoordinatorTests.swift */; };
+		1CEAA7202BBC577700C976CA /* CoordinatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAA71F2BBC577700C976CA /* CoordinatorMock.swift */; };
+		1CEAA7222BBC57FB00C976CA /* SuggestionsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAA7212BBC57FB00C976CA /* SuggestionsViewModelTests.swift */; };
+		1CEAA7242BBC589300C976CA /* FetchSuggestionsUseCaseMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAA7232BBC589300C976CA /* FetchSuggestionsUseCaseMock.swift */; };
+		1CEAA7262BBC5B2700C976CA /* Stubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAA7252BBC5B2700C976CA /* Stubs.swift */; };
+		1CEAA7282BBC7B2000C976CA /* DetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAA7272BBC7B2000C976CA /* DetailViewModelTests.swift */; };
+		1CEAA72B2BBC8B6200C976CA /* ListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAA72A2BBC8B6200C976CA /* ListViewModelTests.swift */; };
 		1CF163DB2BB0AAFD00F1CC41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF163DA2BB0AAFD00F1CC41 /* AppDelegate.swift */; };
 		1CF163DD2BB0AAFD00F1CC41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF163DC2BB0AAFD00F1CC41 /* SceneDelegate.swift */; };
-		1CF163DF2BB0AAFD00F1CC41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF163DE2BB0AAFD00F1CC41 /* ViewController.swift */; };
-		1CF163E22BB0AAFD00F1CC41 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1CF163E12BB0AAFD00F1CC41 /* Base */; };
 		1CF163E42BB0AAFF00F1CC41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF163E32BB0AAFF00F1CC41 /* Assets.xcassets */; };
 		1CF163E72BB0AAFF00F1CC41 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1CF163E62BB0AAFF00F1CC41 /* Base */; };
-		1CF163F22BB0AAFF00F1CC41 /* Meli_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF163F12BB0AAFF00F1CC41 /* Meli_testTests.swift */; };
 		1CF163FC2BB0AAFF00F1CC41 /* Meli_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF163FB2BB0AAFF00F1CC41 /* Meli_testUITests.swift */; };
 		1CF163FE2BB0AAFF00F1CC41 /* Meli_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF163FD2BB0AAFF00F1CC41 /* Meli_testUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
@@ -36,16 +79,58 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C274D222BB23A37006A73E5 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		1C274D242BB23A93006A73E5 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		1C8172142BBB17C000490212 /* SuggestionsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionsModel.swift; sourceTree = "<group>"; };
+		1C81721B2BBB198100490212 /* SuggestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionsViewController.swift; sourceTree = "<group>"; };
+		1C86F0172BB4451A004F9FA4 /* SuggestionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsViewModel.swift; sourceTree = "<group>"; };
+		1C86F01E2BB4458D004F9FA4 /* FetchSuggestionsUseCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchSuggestionsUseCaseProtocol.swift; sourceTree = "<group>"; };
+		1C86F0202BB44669004F9FA4 /* FetchSuggestionsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchSuggestionsUseCase.swift; sourceTree = "<group>"; };
+		1C86F0222BB44FF1004F9FA4 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		1C86F0242BB44FF8004F9FA4 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		1C86F0262BB4501F004F9FA4 /* FetchResultsUseCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchResultsUseCaseProtocol.swift; sourceTree = "<group>"; };
+		1C86F0282BB45025004F9FA4 /* FetchResultsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchResultsUseCase.swift; sourceTree = "<group>"; };
+		1C86F0322BB71661004F9FA4 /* ListCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCellTableViewCell.swift; sourceTree = "<group>"; };
+		1C86F0342BB8E859004F9FA4 /* ItemEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEntity.swift; sourceTree = "<group>"; };
+		1C86F0362BB8EC57004F9FA4 /* FetchItemUseCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchItemUseCaseProtocol.swift; sourceTree = "<group>"; };
+		1C86F0382BB8ECA5004F9FA4 /* FetchItemUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchItemUseCase.swift; sourceTree = "<group>"; };
+		1C86F03A2BB8ED19004F9FA4 /* DetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
+		1C86F03C2BB8F369004F9FA4 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		1C86F0452BBA37D3004F9FA4 /* ServicesManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesManagerProtocol.swift; sourceTree = "<group>"; };
+		1C86F0472BBA6747004F9FA4 /* MeliEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeliEndpoint.swift; sourceTree = "<group>"; };
+		1C86F0492BBAF132004F9FA4 /* ItemCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCellModel.swift; sourceTree = "<group>"; };
+		1CB1EB792BB3314C000A6850 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		1CB1EB7B2BB33152000A6850 /* RepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryProtocol.swift; sourceTree = "<group>"; };
+		1CB1EB7D2BB33187000A6850 /* DataDecoderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDecoderProtocol.swift; sourceTree = "<group>"; };
+		1CB1EB7F2BB331A4000A6850 /* UrlSessionAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlSessionAPIClient.swift; sourceTree = "<group>"; };
+		1CB1EB822BB33275000A6850 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		1CB1EB852BB33CA4000A6850 /* SuggestionEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionEntity.swift; sourceTree = "<group>"; };
+		1CB1EB872BB3BEF3000A6850 /* ResultsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsEntity.swift; sourceTree = "<group>"; };
+		1CB1EB892BB3BF79000A6850 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		1CB1EB8B2BB3C501000A6850 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1CB35CFA2BBB28FA005F5822 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		1CEAA7082BBB698800C976CA /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		1CEAA70A2BBB6B6600C976CA /* ApiClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClientMock.swift; sourceTree = "<group>"; };
+		1CEAA70C2BBB92F100C976CA /* DataDecoderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDecoderMock.swift; sourceTree = "<group>"; };
+		1CEAA7102BBB964A00C976CA /* RepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryMock.swift; sourceTree = "<group>"; };
+		1CEAA7132BBB9B9E00C976CA /* ServicesManagerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesManagerMock.swift; sourceTree = "<group>"; };
+		1CEAA7152BBB9C0500C976CA /* ErrorAlertFactoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorAlertFactoryTests.swift; sourceTree = "<group>"; };
+		1CEAA7172BBB9D4600C976CA /* MeliEndpointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeliEndpointTests.swift; sourceTree = "<group>"; };
+		1CEAA71B2BBBA68300C976CA /* RepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTests.swift; sourceTree = "<group>"; };
+		1CEAA71D2BBC42AF00C976CA /* CoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorTests.swift; sourceTree = "<group>"; };
+		1CEAA71F2BBC577700C976CA /* CoordinatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorMock.swift; sourceTree = "<group>"; };
+		1CEAA7212BBC57FB00C976CA /* SuggestionsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsViewModelTests.swift; sourceTree = "<group>"; };
+		1CEAA7232BBC589300C976CA /* FetchSuggestionsUseCaseMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchSuggestionsUseCaseMock.swift; sourceTree = "<group>"; };
+		1CEAA7252BBC5B2700C976CA /* Stubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stubs.swift; sourceTree = "<group>"; };
+		1CEAA7272BBC7B2000C976CA /* DetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelTests.swift; sourceTree = "<group>"; };
+		1CEAA72A2BBC8B6200C976CA /* ListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModelTests.swift; sourceTree = "<group>"; };
 		1CF163D72BB0AAFD00F1CC41 /* Meli-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meli-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF163DA2BB0AAFD00F1CC41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CF163DC2BB0AAFD00F1CC41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1CF163DE2BB0AAFD00F1CC41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1CF163E12BB0AAFD00F1CC41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CF163E32BB0AAFF00F1CC41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CF163E62BB0AAFF00F1CC41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CF163E82BB0AAFF00F1CC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CF163ED2BB0AAFF00F1CC41 /* Meli-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meli-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CF163F12BB0AAFF00F1CC41 /* Meli_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meli_testTests.swift; sourceTree = "<group>"; };
 		1CF163F72BB0AAFF00F1CC41 /* Meli-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meli-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF163FB2BB0AAFF00F1CC41 /* Meli_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meli_testUITests.swift; sourceTree = "<group>"; };
 		1CF163FD2BB0AAFF00F1CC41 /* Meli_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meli_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -56,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C86F0312BB5EA0A004F9FA4 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +162,253 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C86F0102BB43C0B004F9FA4 /* ResultList */ = {
+			isa = PBXGroup;
+			children = (
+				1C86F02E2BB4506C004F9FA4 /* Presentation */,
+				1C86F02A2BB4502D004F9FA4 /* UseCases */,
+			);
+			path = ResultList;
+			sourceTree = "<group>";
+		};
+		1C86F0112BB43C26004F9FA4 /* ProductDetails */ = {
+			isa = PBXGroup;
+			children = (
+				1C86F0412BBA2284004F9FA4 /* Presentation */,
+				1C86F0402BBA2278004F9FA4 /* UseCases */,
+			);
+			path = ProductDetails;
+			sourceTree = "<group>";
+		};
+		1C86F0122BB43C35004F9FA4 /* AutoSuggestions */ = {
+			isa = PBXGroup;
+			children = (
+				1C86F0192BB44528004F9FA4 /* Presentation */,
+				1C86F01A2BB44538004F9FA4 /* UseCases */,
+			);
+			path = AutoSuggestions;
+			sourceTree = "<group>";
+		};
+		1C86F0132BB43C78004F9FA4 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				1C274D222BB23A37006A73E5 /* CoordinatorProtocol.swift */,
+				1C274D242BB23A93006A73E5 /* Coordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		1C86F0142BB443AC004F9FA4 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				1CF163DA2BB0AAFD00F1CC41 /* AppDelegate.swift */,
+				1CF163DC2BB0AAFD00F1CC41 /* SceneDelegate.swift */,
+				1CF163E32BB0AAFF00F1CC41 /* Assets.xcassets */,
+				1CF163E52BB0AAFF00F1CC41 /* LaunchScreen.storyboard */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		1C86F0192BB44528004F9FA4 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1C86F01D2BB4455E004F9FA4 /* Models */,
+				1C86F01B2BB44549004F9FA4 /* Views */,
+				1C86F01C2BB44556004F9FA4 /* ViewModel */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1C86F01A2BB44538004F9FA4 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				1C86F01E2BB4458D004F9FA4 /* FetchSuggestionsUseCaseProtocol.swift */,
+				1C86F0202BB44669004F9FA4 /* FetchSuggestionsUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		1C86F01B2BB44549004F9FA4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C81721B2BBB198100490212 /* SuggestionsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1C86F01C2BB44556004F9FA4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1C86F0172BB4451A004F9FA4 /* SuggestionsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1C86F01D2BB4455E004F9FA4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C8172142BBB17C000490212 /* SuggestionsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C86F02A2BB4502D004F9FA4 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				1C86F0262BB4501F004F9FA4 /* FetchResultsUseCaseProtocol.swift */,
+				1C86F0282BB45025004F9FA4 /* FetchResultsUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		1C86F02B2BB45034004F9FA4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1C86F0242BB44FF8004F9FA4 /* ListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1C86F02C2BB4503E004F9FA4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C86F0222BB44FF1004F9FA4 /* ItemModel.swift */,
+				1C86F0492BBAF132004F9FA4 /* ItemCellModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C86F02D2BB4504B004F9FA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1EB892BB3BF79000A6850 /* ListViewController.swift */,
+				1C86F0322BB71661004F9FA4 /* ListCellTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C86F02E2BB4506C004F9FA4 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1C86F02C2BB4503E004F9FA4 /* Models */,
+				1C86F02D2BB4504B004F9FA4 /* View */,
+				1C86F02B2BB45034004F9FA4 /* ViewModel */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1C86F0402BBA2278004F9FA4 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				1C86F0362BB8EC57004F9FA4 /* FetchItemUseCaseProtocol.swift */,
+				1C86F0382BB8ECA5004F9FA4 /* FetchItemUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		1C86F0412BBA2284004F9FA4 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1C86F0432BBA2296004F9FA4 /* Model */,
+				1C86F0422BBA228C004F9FA4 /* View */,
+				1C86F0442BBA229B004F9FA4 /* ViewModel */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1C86F0422BBA228C004F9FA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1EB8B2BB3C501000A6850 /* DetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C86F0432BBA2296004F9FA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C86F03A2BB8ED19004F9FA4 /* DetailModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1C86F0442BBA229B004F9FA4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1C86F03C2BB8F369004F9FA4 /* DetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1CB1EB772BB33124000A6850 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1EB782BB33139000A6850 /* Repository */,
+				1C86F0452BBA37D3004F9FA4 /* ServicesManagerProtocol.swift */,
+				1CB1EB7D2BB33187000A6850 /* DataDecoderProtocol.swift */,
+				1CB1EB7F2BB331A4000A6850 /* UrlSessionAPIClient.swift */,
+				1C86F0472BBA6747004F9FA4 /* MeliEndpoint.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1CB1EB782BB33139000A6850 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1EB792BB3314C000A6850 /* Repository.swift */,
+				1CB1EB7B2BB33152000A6850 /* RepositoryProtocol.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		1CB1EB812BB33269000A6850 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1CB1EB822BB33275000A6850 /* AppConstants.swift */,
+				1CEAA7082BBB698800C976CA /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1CB1EB842BB33AC6000A6850 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				1C86F0342BB8E859004F9FA4 /* ItemEntity.swift */,
+				1CB1EB852BB33CA4000A6850 /* SuggestionEntity.swift */,
+				1CB1EB872BB3BEF3000A6850 /* ResultsEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		1CB35CF92BBB28D8005F5822 /* ErrorHandler */ = {
+			isa = PBXGroup;
+			children = (
+				1CB35CFA2BBB28FA005F5822 /* ApiError.swift */,
+			);
+			path = ErrorHandler;
+			sourceTree = "<group>";
+		};
+		1CEAA7122BBB9B7C00C976CA /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				1CEAA7132BBB9B9E00C976CA /* ServicesManagerMock.swift */,
+				1CEAA71F2BBC577700C976CA /* CoordinatorMock.swift */,
+				1CEAA7232BBC589300C976CA /* FetchSuggestionsUseCaseMock.swift */,
+				1CEAA70A2BBB6B6600C976CA /* ApiClientMock.swift */,
+				1CEAA70C2BBB92F100C976CA /* DataDecoderMock.swift */,
+				1CEAA7102BBB964A00C976CA /* RepositoryMock.swift */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		1CEAA7292BBC7CAE00C976CA /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				1CEAA7252BBC5B2700C976CA /* Stubs.swift */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
 		1CF163CE2BB0AAFD00F1CC41 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +432,16 @@
 		1CF163D92BB0AAFD00F1CC41 /* Meli-test */ = {
 			isa = PBXGroup;
 			children = (
-				1CF163DA2BB0AAFD00F1CC41 /* AppDelegate.swift */,
-				1CF163DC2BB0AAFD00F1CC41 /* SceneDelegate.swift */,
-				1CF163DE2BB0AAFD00F1CC41 /* ViewController.swift */,
-				1CF163E02BB0AAFD00F1CC41 /* Main.storyboard */,
-				1CF163E32BB0AAFF00F1CC41 /* Assets.xcassets */,
-				1CF163E52BB0AAFF00F1CC41 /* LaunchScreen.storyboard */,
+				1CB35CF92BBB28D8005F5822 /* ErrorHandler */,
 				1CF163E82BB0AAFF00F1CC41 /* Info.plist */,
+				1CB1EB842BB33AC6000A6850 /* Entities */,
+				1CB1EB812BB33269000A6850 /* Utils */,
+				1CB1EB772BB33124000A6850 /* Networking */,
+				1C86F0132BB43C78004F9FA4 /* Navigation */,
+				1C86F0122BB43C35004F9FA4 /* AutoSuggestions */,
+				1C86F0112BB43C26004F9FA4 /* ProductDetails */,
+				1C86F0102BB43C0B004F9FA4 /* ResultList */,
+				1C86F0142BB443AC004F9FA4 /* Configuration */,
 			);
 			path = "Meli-test";
 			sourceTree = "<group>";
@@ -113,7 +449,15 @@
 		1CF163F02BB0AAFF00F1CC41 /* Meli-testTests */ = {
 			isa = PBXGroup;
 			children = (
-				1CF163F12BB0AAFF00F1CC41 /* Meli_testTests.swift */,
+				1CEAA7152BBB9C0500C976CA /* ErrorAlertFactoryTests.swift */,
+				1CEAA7172BBB9D4600C976CA /* MeliEndpointTests.swift */,
+				1CEAA71B2BBBA68300C976CA /* RepositoryTests.swift */,
+				1CEAA71D2BBC42AF00C976CA /* CoordinatorTests.swift */,
+				1CEAA7212BBC57FB00C976CA /* SuggestionsViewModelTests.swift */,
+				1CEAA7272BBC7B2000C976CA /* DetailViewModelTests.swift */,
+				1CEAA72A2BBC8B6200C976CA /* ListViewModelTests.swift */,
+				1CEAA7292BBC7CAE00C976CA /* Stubs */,
+				1CEAA7122BBB9B7C00C976CA /* MockData */,
 			);
 			path = "Meli-testTests";
 			sourceTree = "<group>";
@@ -143,6 +487,9 @@
 			dependencies = (
 			);
 			name = "Meli-test";
+			packageProductDependencies = (
+				1C86F0302BB5EA0A004F9FA4 /* SDWebImage */,
+			);
 			productName = "Meli-test";
 			productReference = 1CF163D72BB0AAFD00F1CC41 /* Meli-test.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +562,9 @@
 				Base,
 			);
 			mainGroup = 1CF163CE2BB0AAFD00F1CC41;
+			packageReferences = (
+				1C86F02F2BB5EA0A004F9FA4 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 1CF163D82BB0AAFD00F1CC41 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +583,6 @@
 			files = (
 				1CF163E42BB0AAFF00F1CC41 /* Assets.xcassets in Resources */,
 				1CF163E72BB0AAFF00F1CC41 /* Base in Resources */,
-				1CF163E22BB0AAFD00F1CC41 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +607,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CF163DF2BB0AAFD00F1CC41 /* ViewController.swift in Sources */,
+				1C86F0232BB44FF1004F9FA4 /* ItemModel.swift in Sources */,
+				1CB1EB862BB33CA4000A6850 /* SuggestionEntity.swift in Sources */,
+				1C86F0292BB45025004F9FA4 /* FetchResultsUseCase.swift in Sources */,
+				1C86F0212BB44669004F9FA4 /* FetchSuggestionsUseCase.swift in Sources */,
+				1C86F0462BBA37D3004F9FA4 /* ServicesManagerProtocol.swift in Sources */,
+				1C86F0182BB4451A004F9FA4 /* SuggestionsViewModel.swift in Sources */,
 				1CF163DB2BB0AAFD00F1CC41 /* AppDelegate.swift in Sources */,
+				1C86F0392BB8ECA5004F9FA4 /* FetchItemUseCase.swift in Sources */,
+				1C86F0482BBA6747004F9FA4 /* MeliEndpoint.swift in Sources */,
+				1C274D252BB23A93006A73E5 /* Coordinator.swift in Sources */,
+				1C274D232BB23A37006A73E5 /* CoordinatorProtocol.swift in Sources */,
+				1C86F0332BB71661004F9FA4 /* ListCellTableViewCell.swift in Sources */,
+				1C86F0272BB4501F004F9FA4 /* FetchResultsUseCaseProtocol.swift in Sources */,
+				1CB35CFB2BBB28FA005F5822 /* ApiError.swift in Sources */,
+				1C86F04A2BBAF132004F9FA4 /* ItemCellModel.swift in Sources */,
+				1C81721C2BBB198100490212 /* SuggestionsViewController.swift in Sources */,
+				1CB1EB882BB3BEF3000A6850 /* ResultsEntity.swift in Sources */,
+				1C86F0252BB44FF8004F9FA4 /* ListViewModel.swift in Sources */,
 				1CF163DD2BB0AAFD00F1CC41 /* SceneDelegate.swift in Sources */,
+				1C86F0372BB8EC57004F9FA4 /* FetchItemUseCaseProtocol.swift in Sources */,
+				1C86F0352BB8E859004F9FA4 /* ItemEntity.swift in Sources */,
+				1CB1EB7A2BB3314C000A6850 /* Repository.swift in Sources */,
+				1CB1EB7E2BB33187000A6850 /* DataDecoderProtocol.swift in Sources */,
+				1CB1EB7C2BB33152000A6850 /* RepositoryProtocol.swift in Sources */,
+				1C86F03B2BB8ED19004F9FA4 /* DetailModel.swift in Sources */,
+				1CB1EB802BB331A4000A6850 /* UrlSessionAPIClient.swift in Sources */,
+				1C86F03D2BB8F369004F9FA4 /* DetailViewModel.swift in Sources */,
+				1CB1EB8A2BB3BF79000A6850 /* ListViewController.swift in Sources */,
+				1CB1EB832BB33275000A6850 /* AppConstants.swift in Sources */,
+				1CEAA7092BBB698800C976CA /* Utils.swift in Sources */,
+				1C8172152BBB17C000490212 /* SuggestionsModel.swift in Sources */,
+				1C86F01F2BB4458D004F9FA4 /* FetchSuggestionsUseCaseProtocol.swift in Sources */,
+				1CB1EB8C2BB3C501000A6850 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +647,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CF163F22BB0AAFF00F1CC41 /* Meli_testTests.swift in Sources */,
+				1CEAA71E2BBC42AF00C976CA /* CoordinatorTests.swift in Sources */,
+				1CEAA70D2BBB92F100C976CA /* DataDecoderMock.swift in Sources */,
+				1CEAA72B2BBC8B6200C976CA /* ListViewModelTests.swift in Sources */,
+				1CEAA71C2BBBA68300C976CA /* RepositoryTests.swift in Sources */,
+				1CEAA7262BBC5B2700C976CA /* Stubs.swift in Sources */,
+				1CEAA7112BBB964A00C976CA /* RepositoryMock.swift in Sources */,
+				1CEAA70B2BBB6B6600C976CA /* ApiClientMock.swift in Sources */,
+				1CEAA7282BBC7B2000C976CA /* DetailViewModelTests.swift in Sources */,
+				1CEAA7182BBB9D4600C976CA /* MeliEndpointTests.swift in Sources */,
+				1CEAA7222BBC57FB00C976CA /* SuggestionsViewModelTests.swift in Sources */,
+				1CEAA7162BBB9C0500C976CA /* ErrorAlertFactoryTests.swift in Sources */,
+				1CEAA7142BBB9B9E00C976CA /* ServicesManagerMock.swift in Sources */,
+				1CEAA7242BBC589300C976CA /* FetchSuggestionsUseCaseMock.swift in Sources */,
+				1CEAA7202BBC577700C976CA /* CoordinatorMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +689,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1CF163E02BB0AAFD00F1CC41 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1CF163E12BB0AAFD00F1CC41 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1CF163E52BB0AAFF00F1CC41 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -368,7 +752,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +809,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -447,9 +831,9 @@
 				INFOPLIST_FILE = "Meli-test/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,9 +841,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.carlosmendieta.Meli-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -475,9 +863,9 @@
 				INFOPLIST_FILE = "Meli-test/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,9 +873,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.carlosmendieta.Meli-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -607,6 +999,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1C86F02F2BB5EA0A004F9FA4 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.19.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1C86F0302BB5EA0A004F9FA4 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1C86F02F2BB5EA0A004F9FA4 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1CF163CF2BB0AAFD00F1CC41 /* Project object */;
 }
